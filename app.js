@@ -9,7 +9,7 @@ let timerId = null;
 const stoneEl = document.getElementById('stone');
 const toggleBtn = document.getElementById('toggle');
 
-const audio = new Audio('stone_tick_soft.wav');
+const audio = new Audio('./StoneSmash.wav');
 audio.volume = 0.18;
 
 function start() {
@@ -34,11 +34,14 @@ function tick() {
   stoneEl.textContent = Math.floor(elapsed / STONE_DURATION);
 
   // Sound (fehlertolerant)
-  try {
-    audio.currentTime = 0;
-    audio.play();
-  } catch (e) {
-    console.warn('Audio blocked or missing');
+  
+if (audio.readyState >= 2) {
+    try {
+      audio.currentTime = 0;
+      audio.play();
+    } catch (e) {
+      console.warn('Sound blocked');
+    }
   }
 
   timerId = setTimeout(tick, STONE_DURATION);
