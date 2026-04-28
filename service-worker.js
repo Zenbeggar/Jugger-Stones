@@ -5,7 +5,8 @@ const ASSETS = [
   '/index.html',
   '/style.css',
   '/app.js',
-  '/StoneSmash.wav'
+  '/StoneSmash.wav',
+  '/favivon.ico'
 ];
 
 self.addEventListener('install', e => {
