@@ -1,5 +1,5 @@
 
-const CACHE = 'jugger-steine-v2';
+const CACHE = 'jugger-steine-v3';
 const ASSETS = [
   '/',
   '/index.html',
