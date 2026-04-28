@@ -5,7 +5,7 @@ const ASSETS = [
   '/index.html',
   '/style.css',
   '/app.js',
-  '/stone_tick_soft.wav'
+  '/StoneSmash.wav'
 ];
 
 self.addEventListener('install', e => {
