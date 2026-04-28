@@ -8,7 +8,7 @@ let timerId = null;
 
 const stoneEl = document.getElementById('stone');
 const toggleBtn = document.getElementById('toggle');
-
+console.log('LOADED app-v3.js');
 const audio = new Audio('./StoneSmash.wav');
 audio.volume = 0.18;
 
