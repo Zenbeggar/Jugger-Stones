@@ -1,0 +1,32 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: black;
+  color: white;
+  font-family: system-ui, sans-serif;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#stone {
+  font-size: 30vh;
+  font-weight: bold;
+}
+
+button {
+  font-size: 6vh;
+  padding: 1rem 3rem;
+  margin-top: 2rem;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 12px;
+}
