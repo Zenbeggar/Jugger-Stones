@@ -1,4 +1,4 @@
-const CACHE_NAME = 'jugger-steine-v1';
+const CACHE_NAME = 'jugger-steine-v4';
 const ASSETS = [
   '/',
   '/index.html',
