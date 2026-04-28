@@ -1,6 +1,3 @@
-alert('APP V3 LOADED');
-console.log('APP V3 LOADED');
-
 const STONE_DURATION = 1500; // ms
 
 let running = false;
